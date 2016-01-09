@@ -43,18 +43,12 @@ in memory before reading into R. Make sure your computer has enough
 memory (most modern computers should be fine).
 
 * We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
+2007-02-02. A data table is subset after initial load, but be aware of the initial load.
 
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
-
-* Note that in this dataset missing values are coded as `?`.
+* The Date variable was combined with the Time variable and converted to POSIXct() format
 
 
-## Making Plots
-Run each of the Plot#.R scripts to recreate each plot.
+## Making The Plots
+* Run each of the Plot#.R scripts to recreate each plot (which output to file).
 
 Note: The scripts will NOT set working directories, so the where you start is where the data file will be downloaded and the Plot Files created.
